@@ -1,298 +1,589 @@
 var constants = {
   "config": {
     "appTitle": "Historic Tale Construction Kit",
-    "appSub": "Bayeux",
-    "repository":"https://github.com/htck/bayeux",
+    "appSub": "Artyfaces",
+    "repository":"https://github.com/Cosmikats/Artyfaces",
     "authors": [
       {
-        "name": "LeonardA-L",
-        "picture": "https://leonarda-l.github.io/Photo_small.jpg",
-        "link": "https://LeonardA-L.github.io/"
+        "name": "Les Chats Cosmiques",
+        "picture": "https://avatars1.githubusercontent.com/u/6512880?s=400&u=6b1532b49e5faa0c876773d85ae0fc1811bbdf99&v=4",
+        "link": "http://www.leschatscosmiques.net"
       },
       {
-        "name": "Mathieu",
-        "picture": "https://secure.gravatar.com/avatar/e6cfb8715cecf121b64c938268519c50?s=64",
-        "link": "https://thoretton.com"
+        "name": "Alice Pennors",
+        "picture": "https://pbs.twimg.com/profile_images/459421722811183104/TazV44IN_400x400.jpeg",
+        "link": "https://twitter.com/loopiloop"
       },
       {
-        "name": "Maria",
-        "picture": "https://avatars3.githubusercontent.com/u/6231239?v=3&s=460",
-        "link": "https://www.linkedin.com/in/metegan/"
+        "name": "HTCK Bayeux",
+        "picture": "https://avatars2.githubusercontent.com/u/15833509?s=200&v=4",
+        "link": "https://github.com/htck/bayeux"
+      },
+      {
+        "name": "Mathieu Soula",
+        "picture": "https://pbs.twimg.com/profile_images/959770519703781376/ul0ob5Da_400x400.jpg",
+        "link": "https://twitter.com/ridmsoula"
+      },
+       {
+        "name": "Yokohama City Hall's public library",
+        "picture": "https://businessyokohama.com/wp-content/uploads/2018/10/open-yokohama-logo-tag2.png",
+        "link": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/shuroku/hirayama.html"
       }
-    ]
+	  ]
   },
   "colors":[
-    "#303030",
-    "#871b1b",
-    "#141464",
-    "#b98c1a",
-    "#336600",
-    "#7b2b7a",
-    "#F4F5F6"
+    "#00ff00",
+    "#ffff00",
+    "#00ffff",
+    "#ff00ff",
+    "#ff0000",
+    "#ffffff",
+    "#000000"
+  ],
+  "backgrounds":[
+    "content//images/backgrounds/background_1.png",
+    "content//images/backgrounds/background_2.png",
+    "content//images/backgrounds/background_3.png",
+    "content//images/backgrounds/background_4.png",
+    "content//images/backgrounds/background_5.png"
   ],
   "tabs": [
    {
-      "title": "Braves",
+      "title": "Kiku",
       "images": [
-        "content//images/brave/01_archer1.png",
-        "content//images/brave/02_archer2.png",
-        "content//images/brave/03_archer3.png",
-        "content//images/brave/04_archer4.png",
-        "content//images/brave/05_falling_hero.png",
-        "content//images/brave/06_beheaded_warrior1.png",
-        "content//images/brave/07_dead_warrior2.png",
-        "content//images/brave/08_dead_warrior2.png",
-        "content//images/brave/09_dead_warrior3.png",
-        "content//images/brave/10_dead_warrior4.png",
-        "content//images/brave/11_horseman_with_shield_and_lance.png",
-        "content//images/brave/12_horsemen.png",
-        "content//images/brave/13_saluting_warrior.png",
-        "content//images/brave/14_two_warriors.png",
-        "content//images/brave/15_flag_carrying_warrior.png",
-        "content//images/brave/16_guy_in_shrubs.png",
-        "content//images/brave/17_driver_on_horse.png",
+		"content//images/kiku/feu10.svg",
+		"content//images/kiku/feu13.svg",
+		"content//images/kiku/feu35.svg",
+		"content//images/kiku/feu44.svg",
+		"content//images/kiku/feu49.svg",
+		"content//images/kiku/feu62.svg",
+		"content//images/kiku/feu78.svg",
+		"content//images/kiku/feu80.svg",
+		"content//images/kiku/feu85.svg",
+		"content//images/kiku/feu89.svg",
+		"content//images/kiku/feu93.svg",
+		"content//images/kiku/feu99.svg",
+		"content//images/kiku/feu103.svg",
+		"content//images/kiku/feu108.svg",
+		"content//images/kiku/feu136.svg",
+		"content//images/kiku/feu148.svg",
+		"content//images/kiku/feu154.svg",
+		"content//images/kiku/kikublancs4.svg",
+		"content//images/kiku/peony6.svg",
+		"content//images/kiku/taiyo.svg",
+		"content//images/kiku/yanagi1.svg",
+		]
+    },
+   {
+      "title": "Botan",
+      "images": [
+		"content//images/botan/feu18.svg",
+		"content//images/botan/feu23.svg",
+		"content//images/botan/feu33.svg",
+		"content//images/botan/feu37.svg",
+		"content//images/botan/feu48.svg",
+		"content//images/botan/feu51.svg",
+		"content//images/botan/feu61.svg",
+		"content//images/botan/feu65.svg",
+		"content//images/botan/feu67.svg",
+		"content//images/botan/feu68.svg",
+		"content//images/botan/feu69.svg",
+		"content//images/botan/feu70.svg",
+		"content//images/botan/feu71.svg",
+		"content//images/botan/feu73.svg",
+		"content//images/botan/feu74.svg",
+		"content//images/botan/feu77.svg",
+		"content//images/botan/feu86.svg",
+		"content//images/botan/feu87.svg",
+		"content//images/botan/feu91.svg",
+		"content//images/botan/feu92.svg",
+		"content//images/botan/feu105.svg",
+		"content//images/botan/feu121.svg",
+		"content//images/botan/feu124.svg",
+		"content//images/botan/feu129.svg",
+		"content//images/botan/kikublancs4.svg",
+		"content//images/botan/kikublancs2.svg",
+		"content//images/botan/kikublancs3.svg",
+		"content//images/botan/kikujaune2.svg",
+		"content//images/botan/peony1.svg",
+		"content//images/botan/peony2.svg",
+		"content//images/botan/peony3.svg",
+		"content//images/botan/peony9.svg",
+		"content//images/botan/peony10.svg",
+		"content//images/botan/peony11.svg",
+		"content//images/botan/peony12.svg",
       ]
     },
    {
-      "title": "Beasts",
+      "title": "Yanagi",
       "images": [
-        "content//images/beasts/01_horse.png",
-        "content//images/beasts/02_cow.png",
-        "content//images/beasts/03_bird1.png",
-        "content//images/beasts/04_bird2.png",
-        "content//images/beasts/05_bird3.png",
-        "content//images/beasts/06_bird4.png",
-        "content//images/beasts/07_bird5.png",
-        "content//images/beasts/08_bird6.png",
-        "content//images/beasts/09_ram1.png",
-        "content//images/beasts/10_otter.png",
-        "content//images/beasts/11_lion1.png",
-        "content//images/beasts/12_beast1.png",
-        "content//images/beasts/13_lion2.png",
-        "content//images/beasts/14_dog1.png",
-        "content//images/beasts/15_goat.png",
-        "content//images/beasts/16_dog2.png",
-        "content//images/beasts/17_dog3.png",
-        "content//images/beasts/18_dog4.png",
-        "content//images/beasts/19_beast2.png",
-        "content//images/beasts/20_dog5.png",
-        "content//images/beasts/21_dogs.png",
-        "content//images/beasts/22_lion3.png",
-        "content//images/beasts/23_lamb.png",
-        "content//images/beasts/24_donkey.png"
-      ]
+		"content//images/yanagi/feu4.svg",
+		"content//images/yanagi/feu5.svg",
+		"content//images/yanagi/feu22.svg",
+		"content//images/yanagi/feu25.svg",
+		"content//images/yanagi/feu27.svg",
+		"content//images/yanagi/feu28.svg",
+		"content//images/yanagi/feu39.svg",
+		"content//images/yanagi/feu55.svg",
+		"content//images/yanagi/feu81.svg",
+		"content//images/yanagi/feu82.svg",
+		"content//images/yanagi/feu88.svg",
+		"content//images/yanagi/feu97.svg",
+		"content//images/yanagi/feu125.svg",
+		"content//images/yanagi/feu134.svg",
+		"content//images/yanagi/feu140.svg",
+		"content//images/yanagi/saule1.svg",
+		"content//images/yanagi/yanagi3.svg",
+		"content//images/yanagi/yanagi4.svg",
+		"content//images/yanagi/yanagi5.svg",
+		"content//images/yanagi/yanagi6.svg",
+
+		]
     },
    {
-      "title": "Buildings",
+      "title": "Dosei",
       "images": [
-        "content//images/buildings/01_tower.png",
-        "content//images/buildings/02_tower2.png",
-        "content//images/buildings/03_tower3.png",
-        "content//images/buildings/04_tower4.png",
-        "content//images/buildings/05_fort.png",
-        "content//images/buildings/06_castle_on_hill.png",
-        "content//images/buildings/07_house.png",
-        "content//images/buildings/08_archway.png",
-        "content//images/buildings/09_pillars.png",
-        "content//images/buildings/10_pillar.png",
-        "content//images/buildings/11_tower6.png",
-        "content//images/buildings/12_tower5.png",
-        "content//images/buildings/13_Arch.png",
+		"content//images/dosei/feu8.svg",
+		"content//images/dosei/feu72.svg",
+		"content//images/dosei/feu75.svg",
+		"content//images/dosei/feu76.svg",
+		"content//images/dosei/feu79.svg",
+		"content//images/dosei/feu90.svg",
+		"content//images/dosei/feu123.svg",
+		"content//images/dosei/feu130.svg",
+		"content//images/dosei/feu131.svg",
+		"content//images/dosei/feu133.svg",
+		"content//images/dosei/feu138.svg",
+		"content//images/dosei/feu139.svg",
+		"content//images/dosei/feu141.svg",
+		"content//images/dosei/feu143.svg",
+		"content//images/dosei/feu144.svg",
+		"content//images/dosei/feu145.svg",
+		"content//images/dosei/feu146.svg",
+		"content//images/dosei/feu147.svg",
+		"content//images/dosei/feu149.svg",
+		"content//images/dosei/feu151.svg",
+		"content//images/dosei/feu152.svg",
+		"content//images/dosei/feu155.svg",
+		]
+    },
+   {
+      "title": "Starmine",
+      "images": [
+		"content//images/starmine/feu11.svg",
+		"content//images/starmine/feu12.svg",
+		"content//images/starmine/feu15.svg",
+		"content//images/starmine/feu16.svg",
+		"content//images/starmine/feu47.svg",
+		"content//images/starmine/feu50.svg",
+		"content//images/starmine/feu58.svg",
+		"content//images/starmine/feu59.svg",
+		"content//images/starmine/feu60.svg",
+		"content//images/starmine/feu84.svg",
+		"content//images/starmine/feu94.svg",
+		"content//images/starmine/feu95.svg",
+		"content//images/starmine/feu96.svg",
+		"content//images/starmine/feu101.svg",
+		"content//images/starmine/feu104.svg",
+		"content//images/starmine/feu106.svg",
+		"content//images/starmine/feu107.svg",
+		"content//images/starmine/feu150.svg",
+		"content//images/starmine/feu153.svg",
+		"content//images/starmine/hana1.svg",
+		"content//images/starmine/kikublancs.svg",
+		"content//images/starmine/peony13.svg",
+		]
+    },
+   {
+      "title": "Yashi",
+      "images": [
+		"content//images/yashi/feu14.svg",
+		"content//images/yashi/feu30.svg",
+		"content//images/yashi/feu46.svg",
+		"content//images/yashi/feu57.svg",
+		"content//images/yashi/feu83.svg",
+		"content//images/yashi/feu100.svg",
+		"content//images/yashi/feu102.svg",
+		"content//images/yashi/yanagi7.svg",
+		]
+    },
+   {
+      "title": "Kowari",
+      "images": [
+		"content//images/kowari/feu21.svg",
+		"content//images/kowari/feu24.svg",
+		"content//images/kowari/feu26.svg",
+		"content//images/kowari/feu29.svg",
+		"content//images/kowari/feu38.svg",
+		"content//images/kowari/feu63.svg",
+		"content//images/kowari/feu64.svg",
+		"content//images/kowari/feu109.svg",
+		"content//images/kowari/feu110.svg",
+		"content//images/kowari/feu111.svg",
+		"content//images/kowari/feu112.svg",
+		"content//images/kowari/feu113.svg",
+		"content//images/kowari/feu114.svg",
+		"content//images/kowari/feu115.svg",
+		"content//images/kowari/feu116.svg",
+		"content//images/kowari/feu117.svg",
+		"content//images/kowari/feu118.svg",
+		"content//images/kowari/feu119.svg",
+		"content//images/kowari/feu120.svg",
+		"content//images/kowari/feu122.svg",
+		"content//images/kowari/feu126.svg",
+		"content//images/kowari/feu127.svg",
+		"content//images/kowari/feu128.svg",
+		"content//images/kowari/feu132.svg",
+		"content//images/kowari/feu142.svg",
+		]
+    },
+	{
+      "title": "Creatures",
+      "images": [
+		"content//images/creatures/cerf1.svg",
+		"content//images/creatures/chat1.svg",
+		"content//images/creatures/chat2.svg",
+		"content//images/creatures/cheval.svg",
+		"content//images/creatures/chien1.svg",
+		"content//images/creatures/coq.svg",
+		"content//images/creatures/dragon.svg",
+		"content//images/creatures/elephant.svg",
+		"content//images/creatures/grenouille.svg",
+		"content//images/creatures/kincho2.svg",
+		"content//images/creatures/kincho1.svg",
+		"content//images/creatures/kingyo1.svg",
+		"content//images/creatures/kingyo2.svg",
+		"content//images/creatures/kingyo3.svg",
+		"content//images/creatures/kingyo4.svg",
+		"content//images/creatures/lapin.svg",
+		"content//images/creatures/oiseaux2.svg",
+		"content//images/creatures/oiseaux3.svg",
+		"content//images/creatures/semi1.svg",
+		"content//images/creatures/singe.svg",
+		"content//images/creatures/souris2.svg",
+		"content//images/creatures/tigre1.svg",
+		"content//images/creatures/tombo.svg",
+		"content//images/creatures/tortue.svg",
       ]
     },
    {
       "title": "Folks",
       "images": [
-        "content//images/folc/01_group.png",
-        "content//images/folc/02_staring-guys.png",
-        "content//images/folc/03_shouting_guy.png",
-        "content//images/folc/04_pointing_guy.png",
-        "content//images/folc/05_gesturing_guy.png",
-        "content//images/folc/06_megaphone_guy.png",
-        "content//images/folc/07_guy_with_shield.png",
-        "content//images/folc/08_woman1.png",
-        "content//images/folc/09_cleric.png",
-        "content//images/folc/10_carrying_guy.png",
-        "content//images/folc/11_guy_with_ring.png",
-        "content//images/folc/12_guy_with_animal.png",
-        "content//images/folc/13_boy_with_sheep.png",
-        "content//images/folc/14_guy_with_axe.png",
-        "content//images/folc/15_pointing_guy.png",
-        "content//images/folc/16_fruitbasket_guy.png",
-        "content//images/folc/17_king1.png",
-        "content//images/folc/18_king2.png",
-        "content//images/folc/19_king3.png",
-        "content//images/folc/20_benchguys.png",
-        "content//images/folc/21_fireguy.png",
-        "content//images/folc/22_woman_with_child.png",
-        "content//images/folc/23_guy_with_chickens.png",
-        "content//images/folc/24_shouting_guy.png",
-        "content//images/folc/25_Man_pointing.png",
-        "content//images/folc/26_Serf.png",
-        "content//images/folc/27_SittingNoble01.png",
-        "content//images/folc/28_SittingNoble02.png",
-        "content//images/folc/29_SittingNoble03.png",
+		"content//images/folks/bonhomme1.svg",
+		"content//images/folks/bonhomme2.svg",
+		"content//images/folks/bonhomme3.svg",
+		"content//images/folks/bonhomme4.svg",
+		"content//images/folks/bonhomme5.svg",
+		"content//images/folks/bonhomme6.svg",
+        "content//images/folks/bonhomme11.svg",
+		"content//images/folks/bonhomme12.svg",
+		"content//images/folks/bonhomme13.svg",
+		"content//images/folks/bonhomme14.svg",
+		"content//images/folks/femme1.svg",
+		"content//images/folks/femme4.svg",
+		"content//images/folks/femme5.svg",
+		"content//images/folks/voyante1.svg",
       ]
     },
    {
+      "title": "Sparkles",
+      "images": [
+		"content//images/sparkles/feu7.svg",
+		"content//images/sparkles/feu17.svg",
+		"content//images/sparkles/feu19.svg",
+		"content//images/sparkles/feu20.svg",
+		"content//images/sparkles/feu31.svg",
+		"content//images/sparkles/feu32.svg",
+		"content//images/sparkles/feu34.svg",
+		"content//images/sparkles/feu52.svg",
+		"content//images/sparkles/feu53.svg",
+		"content//images/sparkles/feu54.svg",
+		"content//images/sparkles/feu56.svg",
+		"content//images/sparkles/feu66.svg",
+		"content//images/sparkles/feu98.svg",
+		"content//images/sparkles/feu137.svg",
+		"content//images/sparkles/hoshi1.svg",
+		"content//images/sparkles/hoshi2.svg",
+		"content//images/sparkles/hoshi3.svg",
+		"content//images/sparkles/hoshi4.svg",
+		"content//images/sparkles/hoshi5.svg",
+      ]
+    },   {
       "title": "Misc",
       "images": [
-        "content//images/misc/01_tree.png",
-        "content//images/misc/02_tree.png",
-        "content//images/misc/03_tree.png",
-        "content//images/misc/04_tree.png",
-        "content//images/misc/05_tree.png",
-        "content//images/misc/06_boat.png",
-        "content//images/misc/07_boat.png",
-        "content//images/misc/07_boat_with_horses.png",
-        "content//images/misc/08_boat.png",
-        "content//images/misc/09_shield.png",
-        "content//images/misc/10_shield.png",
-        "content//images/misc/11_shields.png",
-        "content//images/misc/12_tree1.png",
-        "content//images/misc/13_tree.png",
-        "content//images/misc/14_guy_on_pole.png",
-        "content//images/misc/15_halleys_comet.png",
-        "content//images/misc/16_sword.png",
-        "content//images/misc/17_sword_helmet.png",
-        "content//images/misc/18_Barbecue.png",
+		"content//images/misc/ballons1.svg",
+		"content//images/misc/ballons2.svg",
+		"content//images/misc/cloud2.svg",
+		"content//images/misc/cloud.svg",
+		"content//images/misc/clouds3.svg",
+		"content//images/misc/clouds4.svg",
+		"content//images/misc/clouds5.svg",
+		"content//images/misc/clouds6.svg",
+		"content//images/misc/daruma.svg",
+		"content//images/misc/des.svg",
+		"content//images/misc/dragon1.svg",
+		"content//images/misc/dragon2.svg",
+		"content//images/misc/dragon3.svg",
+		"content//images/misc/dragon4.svg",
+		"content//images/misc/dragon5.svg",
+		"content//images/misc/fanions.svg",
+		"content//images/misc/hana2.svg",
+		"content//images/misc/hata1.svg",
+		"content//images/misc/lampions1.svg",
+		"content//images/misc/lampions2.svg",
+		"content//images/misc/lampions3.svg",
+		"content//images/misc/lampions4.svg",
+		"content//images/misc/moon2.svg",
+		"content//images/misc/moon.svg",
+		"content//images/misc/moons.svg",
+		"content//images/misc/nuages.svg",
+		"content//images/misc/oiseaux1.svg",
+		"content//images/misc/parapluies2.svg",
+		"content//images/misc/parapluies1.svg",
+		"content//images/misc/serpentins2.svg",
+		"content//images/misc/serpentins3.svg",
+		"content//images/misc/serpentins.svg",
       ]
     },
   ],
-  "backgrounds":[
-    "content//images/backgrounds/background_1.jpg",
-    "content//images/backgrounds/background_2.jpg",
-    "content//images/backgrounds/background_3.jpg",
-    "content//images/backgrounds/background_4.jpg",
-    "content//images/backgrounds/background_5.jpg"
-  ],
+
   "fonts":[
     {
-      font:"Bayeux",
+      font:"Retrocircular",
       size: 25,
       uppercase: true
     },
     {
-      font:"Augusta",
+      font:"JAPAN",
       size: 35,
       uppercase: false
     }
   ],
   "brushes":[
     {
-      name:"Folks",
-      icon:"content//images/folc/01_group.png",
+      name:"Starmine",
+      icon:"content//images/starmine/feu47.svg",
       speed:100,
-      randScaleRange: 0.1,
-      randRotationRange: 3,
-      scale: 0.8,
+      randScaleRange: 0.5,
+      randRotationRange: 100,
+      scale: 1,
       mirror: false,
       randMirror: false,
       images:[
         {
-          img:"content//images/folc/01_group.png"
-        },
-        {
-          img:"content//images/folc/02_staring-guys.png",
+          img:"content//images/starmine/feu11.svg",
           mirror:true,
-          scale: 0.8
+          scale: 0.2
         },
         {
-          img:"content//images/folc/05_gesturing_guy.png",
-          scale:0.9
-        },
-        {
-          img:"content//images/folc/08_woman1.png",
+          img:"content//images/starmine/feu12.svg",
           mirror:true,
-          scale: 0.9
+          scale: 0.2
+        },
+        {
+          img:"content//images/starmine/feu15.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu16.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu47.svg",
+          scale:0.2
+        },
+		{
+          img:"content//images/starmine/feu50.svg",
+          mirror:true,
+          scale: 0.2
+        },
+        {
+          img:"content//images/starmine/feu58.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu59.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu60.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu84.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu94.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu95.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu96.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu101.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu101.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu104.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu106.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu107.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu135.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu150.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/feu153.svg",
+          scale:0.2
+        },
+        {
+          img:"content//images/starmine/hana1.svg",
+          scale:0.2
+        },
+        {
+		  img:"content//images/starmine/kikublancs.svg",
+          scale:0.2
         }
-      ]
+		]
     },
     {
-      name:"Folks-Mirror",
-      icon:"content//images/folc/02_staring-guys.png",
+      name:"Fireworks",
+      icon:"content//images/kiku/feu13.svg",
       speed:100,
-      randScaleRange: 0.1,
-      randRotationRange: 3,
-      scale: 0.8,
+      randScaleRange: 0.7,
+      randRotationRange: 90,
+      scale: 0.7,
       mirror: true,
       randMirror: false,
       images:[
         {
-          img:"content//images/folc/01_group.png"
+          img:"content//images/kiku/feu13.svg"
         },
         {
-          img:"content//images/folc/02_staring-guys.png",
+          img:"content//images/kiku/feu99.svg",
           mirror:true,
-          scale: 0.8
+          scale: 0.5
         },
         {
-          img:"content//images/folc/05_gesturing_guy.png",
-          scale:0.9
+          img:"content//images/kiku/feu148.svg",
+          scale:0.5
         },
         {
-          img:"content//images/folc/08_woman1.png",
+          img:"content//images/kiku/peony6.svg",
+          scale:0.5
+        },
+        {
+          img:"content//images/kiku/feu154.svg",
+          scale:0.5
+        },
+        {
+          img:"content//images/kiku/feu85.svg",
           mirror:true,
-          scale: 0.9
-        }
-      ]
+          scale: 0.5
+        },
+        {
+          img:"content//images/dosei/feu76.svg",
+          scale:0.5
+		},
+        {
+          img:"content//images/dosei/feu79.svg",
+          scale:0.5
+		},
+         {
+          img:"content//images/dosei/feu90.svg",
+          scale:0.5
+		},
+        {
+          img:"content//images/botan/feu73.svg",
+          scale:0.5
+		},
+        {
+          img:"content//images/botan/feu74.svg",
+          scale:0.5
+		},
+        {
+          img:"content//images/botan/feu77.svg",
+          scale:0.5
+		},
+         {
+          img:"content//images/botan/feu87.svg",
+          scale:0.5
+		},
+        {
+          img:"content//images/botan/feu91.svg",
+          scale:0.5
+		},
+        {
+          img:"content//images/botan/feu124.svg",
+          scale:0.5
+		}
+		]
     },
     {
-      name:"Birds",
-      icon:"content//images/beasts/03_bird1.png",
-      speed:500,
-      randScaleRange: 0.2,
-      randRotationRange: 30,
-      scale: 0.6,
-      randMirror: true,
-      images:[
-        {
-          img:"content//images/beasts/03_bird1.png"
-        },
-        {
-          img:"content//images/beasts/05_bird3.png"
-        },
-        {
-          img:"content//images/beasts/08_bird6.png",
-          scale:0.9
-        }
-      ]
-    },
-    {
-      name:"Corpses",
-      icon:"content//images/brave/10_dead_warrior4.png",
+      name:"Sparkles",
+      icon:"content//images/sparkles/hoshi1.svg",
       speed:450,
-      randScaleRange: 0.2,
-      randRotationRange: 10,
+      randScaleRange: 0.5,
+      randRotationRange: 100,
       scale: 0.6,
       randMirror: true,
       images:[
         {
-          img:"content//images/misc/16_sword.png",
-          scale:0.8
+          img:"content//images/sparkles/feu31.svg",
+          scale:0.5
         },
         {
-          img:"content//images/misc/17_sword_helmet.png",
-          scale:0.7
+          img:"content//images/sparkles/feu32.svg",
+          scale:0.5
         },
         {
-          img:"content//images/misc/09_shield.png",
-          scale:0.7
+          img:"content//images/sparkles/feu34.svg",
+          scale:0.5
         },
         {
-          img:"content//images/brave/06_beheaded_warrior1.png"
+          img:"content//images/sparkles/feu66.svg",
+          scale:0.5
+        },
+		{
+          img:"content//images/sparkles/hoshi2.svg",
+          scale:0.5
         },
         {
-          img:"content//images/brave/07_dead_warrior2.png"
+          img:"content//images/sparkles/hoshi3.svg",
+          scale:0.5
         },
         {
-          img:"content//images/brave/08_dead_warrior2.png"
+          img:"content//images/sparkles/hoshi4.svg",
+          scale:0.5
         },
         {
-          img:"content//images/brave/09_dead_warrior3.png"
+          img:"content//images/sparkles/hoshi5.svg",
+          scale:0.5
         },
-        {
-          img:"content//images/brave/10_dead_warrior4.png"
+		{
+          img:"content//images/sparkles/hoshi1.svg",
+          scale:0.5
         }
       ]
     }

@@ -1,7 +1,7 @@
 @import "common.scss";
 
 #ng_view {
-  background: url(../content/images/backgrounds/background_1.jpg);
+  background: #fff;
   min-height: 100%;
 }
 
@@ -30,7 +30,7 @@
 }
 
 md-tabs {
-  background: url("../content/images/backgrounds/background_1.jpg") repeat scroll 0% 0% transparent !important;
+  background: url("../content/images/backgrounds/background_4.png") repeat scroll 0% 0% transparent !important;
 }
 
 md-tab-item {
@@ -57,7 +57,7 @@ md-tabs-wrapper {
 }
 
 // Hack for google chrome
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
   .itembank-wrapper {
     min-height:$contentMinHeightGTLD;
   }
@@ -273,7 +273,7 @@ md-tabs-wrapper {
 }
 
 .md-icon-button:hover{
-  color: rgba(0,0,0, 0.3);  
+  color: rgba(0,0,0, 0.3);
 }
 
 .dialog{
